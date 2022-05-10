@@ -1,0 +1,48 @@
+body {
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.homePage-container {
+  border: 2px solid black;
+  width: 470px;
+  padding: 10px;
+}
+
+h1 {
+  font-weight: 600;
+  margin: 0;
+  font-size: 2.4rem;
+  color: purple;
+  background-color: rgb(219, 217, 217);
+  text-align: center;
+}
+
+.buildOwnPizza,
+.review {
+  font-family: "Hubballi", cursive;
+  font-size: 1.7rem;
+}
+
+li a {
+  color: blue;
+  font-size: 1.5rem;
+}
+
+ul {
+  margin: 0;
+  padding-left: 12px;
+}
+h3 {
+  font-size: 2rem;
+}
+.pizzaImage {
+  width: 200px;
+  background: none;
+}
+
+.pizza {
+  margin-top: 20px;
+}

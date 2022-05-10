@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Home Page</title>
+    {{!-- <link rel="shortcut icon" href="pizza"> --}}
+    <link rel="shortcut icon" href="Pizzaicon.png" type="image/x-icon">
+  </head>
+  <body>
+  <div class="homePage-container">
+      <h1>Welcome to Express Pizza</h1>
+      <h3>Speciality Pizzas</h3>
+
+    
+        <ul>
+          <li><a href="/specialtyPizza?name=Anchovy+Lover's&price=15.00">Anchovy Lover's</a></li>
+          <li><a href="/specialtyPizza?name=Paleo+Pizza&price=18.00">Paleo Pizza</a></li>
+          <li><a href="/specialtyPizza?name=Dessert+Pizza&price=13.00">Dessert Pizzas</a></li>
+        </ul>
+      
+
+      <h3>Custom Pizza</h3>
+      <a class="buildOwnPizza" href="/customPizza">Build your own!</a>
+      <h3>Leave a review</h3>
+      <a class="review" href="/review">Leave a review</a>
+      <div class="pizza">
+        <img class="pizzaImage" src="pizzaSlice.jpg" alt="pizzaSlice" />
+      </div>
+  </body>
+</html>
